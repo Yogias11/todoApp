@@ -1,4 +1,6 @@
 import { Image, StyleSheet, Platform } from 'react-native';
+import React from 'react';
+import { Button } from 'react-native-paper';
 
 import { HelloWave } from '@/components/HelloWave';
 import ParallaxScrollView from '@/components/ParallaxScrollView';
@@ -32,6 +34,7 @@ export default function HomeScreen() {
             })}
           </ThemedText>{' '}
           to open developer tools.
+          <Button mode="text">Click me</Button>
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
